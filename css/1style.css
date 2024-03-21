@@ -1,0 +1,110 @@
+posso apagar tudo e a gente começa? pode.. esta tão ruim assim kkkkkkkkkkkkkkkkkk não, é pq fica mais ra
+
+
+html,body{
+    margin: 0;/* Define a margem superior do elemento*/
+    padding: 0;
+}
+body{
+    background: #05072F;/* Define a cor de fundo para todo o corpo do documento */
+    height: 100vh;/* Define a altura do elemento com a classe*/
+    width: 50vw;/* Define a largura do elemento com a classe*/
+    display: flex;/* Define o elemento com a classe "container" como um contêiner flexível */
+    flex-direction: column;/* Define o elemento com a classe "container" como um contêiner flexível */
+    height: 100vh;/* Define a altura do elemento com a classe "container"*/      
+
+}
+
+.red{
+    color: red;
+}
+
+.white{
+    color: white;
+}
+
+h1{
+    font-family: Arial;/*Fonte do titulo principal*/
+    font-size: 30pt;/*Define o tamanho da fonte para os elementos*/
+    color: white;/*Define a cor da fonte*/
+    text-shadow: 2px,2px,2px,beige;/*Sobreamento*/
+    width: 314px;
+    height: 41px;
+    top: 62px;
+    left: 62px;
+    
+    
+    
+}
+
+h2{
+    font-family: Arial;/*Fonte do titulo principal*/
+    font-size: 30pt;/*Define o tamanho da fonte para os elementos*/
+    color: white;/*Define a cor da fonte*/
+    text-shadow: 2px,2px,2px,beige;/*Sobreamento*/
+    text-align: justify;/*Alinha o texto dentro do elemento com a classe "container" ao centro*/
+}
+
+/*Formatação de imagens*/
+.backgroud-image{
+    border: 2px solid blue;/*Serve para colocar borda na imagem*/
+    width: 854px;/* Define a largura da imagem */
+    height: 954px;/* Define a altura da imagem */
+    background-image: url();/* Define a imagem de fundo */
+    background-position: right top;/* Define a posição da imagem de fundo como a parte superior direita */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+}
+
+figure.foto-legenda{
+    position: relative;
+   /* border:8px solid white;*/
+    box-shadow: 1px 1px 4px black;
+
+}
+/**/
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+
+}
+/*
+figure.foto-legenda figcaption{
+    top: 0px;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1%;
+
+
+}*/
+
+/*Formatação do menu*/
+.menu {
+    display: block;
+}
+
+ul{
+    list-style: none; /* Remove os marcadores de lista */
+    color: white;/* Define a cor do texto */
+    text-transform: uppercase;/* Transforma o texto em maiúsculas */
+    position: absolute;/* Define a posição absoluta */
+    top: 71px;/* Distância do topo da página */
+    left: 638px;/* Distância da esquerda da página */
+    gap: 46.48px;/* Define o espaçamento entre os itens */
+}
+
+
+li{
+display: inline-block;
+padding: 10px;
+margin: 1px;
+
+}

@@ -1,0 +1,117 @@
+/* Define estilos para o HTML e o corpo do documento */
+html,body{
+    margin: 0;/* Define a margem superior do elemento*/
+    padding: 0;
+}
+body{
+    background: #05072F;/* Define a cor de fundo para todo o corpo do documento */
+    color: white;/* Define a cor do texto */
+    font-family: Montserrat;/* Define a fonte do texto */
+   
+}
+
+
+/* Estilos para a barra de navegação */
+nav{
+    display: flex; /* Deixa os elementos um do lado do outro */
+    justify-content: space-between; /* Divide os elementos por igual na tela */
+    align-items: center; /* Posicina os elemntos na vertical*/ 
+    font-weight: 700; /* Define o peso da fonte */
+    padding: 20px;/* Define o preenchimento interno */
+}
+
+/* Estilos para o texto vermelho */
+.red{
+    color: #CF092D;/* Define a cor do texto vermelho */
+
+}
+
+/* Estilos para o título principal */
+h1{
+    padding-left: 35px;/* Define o preenchimento à esquerda */
+}
+
+/* Estilos para as listas */
+ul{
+    display: flex;/* Deixa os itens da lista em linha */
+}
+
+li{
+    text-decoration: none;/* Remove a decoração de texto */
+    list-style: none;/* Remove os marcadores de lista */
+    margin-right: 16px ;/* Define a margem à direita */
+}
+
+
+/* Estilos para as seções */
+section{
+display: flex;/* Deixa os elementos da seção em linha */
+background-color: #01041B;/* Define a cor de fundo da seção */
+padding-left: 70px;/* Define o preenchimento à esquerda */
+
+}
+
+/* Estilos para a imagem */
+img{ 
+    width: 695px;/* Define a largura da imagem */
+    height: 744px;/* Define a altura da imagem */
+}
+
+ /* Estilos para o texto */
+ .texto{
+    display: flex;/* Deixa os elementos do texto em linha */
+    flex-direction: column; /* Define a direção do flex como coluna */
+    
+}
+
+h2{
+    font-size: 123.94px;/* Define o tamanho da fonte do título */
+    margin-bottom:0px; /* Remove a margem inferior */
+
+       
+ }
+
+
+p{
+    font-size: 30px;/* Define o tamanho da fonte do parágrafo */
+  
+     
+}
+
+/* Estilos para o contêiner flexível */
+.flex{
+    display: flex;/* Deixa os elementos flexíveis em linha */
+     
+    
+}
+
+/* Estilos para os botões */
+button{
+   background: #CF092D;
+   color: white;
+   border: none; /* Remove a borda */
+   border-radius: 45.19px;/* Define o raio da borda */
+   padding: 25px;/* Define o preenchimento interno */
+   width: 329px;/* Define a largura do botão */
+   margin-right: 16px; /* Define a margem à direita */
+   font-size: 20px;/* Define o tamanho da fonte */
+
+}
+
+/* Estilos para o botão de início */
+.start{
+    background-color: #410093;/* Define a cor de fundo do botão de início */
+
+}
+
+
+h3{
+    font-size: 30px; /* Define o tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos adicionais para o item de login */
+.login{
+    padding-right: 16px; /* Define o preenchimento à direita */
+}
+
